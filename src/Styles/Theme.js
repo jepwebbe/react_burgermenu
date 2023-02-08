@@ -27,12 +27,12 @@ export const Theme = {
   },
   tablet: {
     rows: "auto auto 1fr auto",
-    columns: "1fr",
+    columns: "repeat(2, auto)",
     area: `
-      "header"
-      "hero"
-      "main"
-      "footer"
+      "a b"
+      "c c"
+      "d d"
+      "e e"
               `,
   },
   tabletTwo: {
@@ -42,14 +42,15 @@ export const Theme = {
               `,
   },
   mobile: {
-    rows: "auto auto 1fr auto",
-    columns: "1fr",
+    rows: "auto auto 1fr auto auto",
+    columns: "repeat(2, auto)",
     area: `
-      "header"
-      "hero"
-      "main"
-      "footer"
-            `,
+      "a a"
+      "b b"
+      "c c"
+      "d d"
+      "e e"
+              `,
   },
   mobileTwo: {
     rows: "",

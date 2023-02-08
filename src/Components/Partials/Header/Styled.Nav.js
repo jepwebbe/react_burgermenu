@@ -4,7 +4,7 @@ export const NavStyled = styled.nav`
   position: fixed;
   top: 0;
   width: 100%;
-  height: 3rem;
+  height: 4rem;
   background-color: white;
   button {
     display: none;
@@ -31,7 +31,7 @@ export const NavStyled = styled.nav`
       background: white;
       padding: 1rem;
       margin: 0;
-      width: 10rem;
+      width: 50vw;
     }
   } ;
 `;
