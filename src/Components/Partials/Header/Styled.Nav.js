@@ -1,6 +1,11 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const NavStyled = styled.nav`
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: white;
   button {
     display: none;
   }
@@ -26,6 +31,7 @@ export const NavStyled = styled.nav`
       background: white;
       padding: 1rem;
       margin: 0;
+      width: 10rem;
     }
   } ;
-`
+`;
