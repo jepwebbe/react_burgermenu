@@ -6,11 +6,12 @@ import { NavStyled } from "./Styled.Nav";
 
 export const Nav = () => {
   // sets the burgermenu to true, if window width is larger than 768
-  const [burgermenu, setBurgermenu] = useState(window.innerWidth >= 768);
-
+  const burgerWidth = "768"
+  const [burgermenu, setBurgermenu] = useState(window.innerWidth >= burgerWidth);
   // change the value of the burgermenu state to the opposite
   const showBurgermenu = () => {
-    setBurgermenu(!burgermenu);
+    if (window.innerWidth <= burgerWidth) { 
+    setBurgermenu(!burgermenu)};
   };
   return (
     <NavStyled>

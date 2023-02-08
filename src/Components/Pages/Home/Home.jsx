@@ -4,7 +4,7 @@ import { HomeStyled } from "./Styled.Home";
 
 const Home = () => {
   return (
-    <Page title="Hjem" description="Dette er hjem">
+    <Page title="BurgermenuHjem" description="Dette er hjem">
       <HomeStyled>
         <div>a</div>
         <div>b</div>
