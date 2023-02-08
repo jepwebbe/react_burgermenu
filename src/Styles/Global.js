@@ -26,4 +26,10 @@ img {
     max-width: 100%;
     height: auto;
 }
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
 `
